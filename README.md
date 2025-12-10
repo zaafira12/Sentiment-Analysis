@@ -1,4 +1,4 @@
-#Sentiment Analysis – Student Feedback Classification System
+# Sentiment Analysis – Student Feedback Classification System
 
 This project is an end-to-end NLP pipeline designed to analyze student feedback and automatically generate:
 
@@ -90,16 +90,16 @@ Provides a single .analyze(text) output like:
 
 #Technologies Used
 
-Python 3
+_ Python 3
 
-Hugging Face Transformers
+_ Hugging Face Transformers
 
-DistilBERT
+_ DistilBERT
 
-CardiffNLP RoBERTa sentiment model
+_ CardiffNLP RoBERTa sentiment model
 
-Flask
+_ Flask
 
-ngrok
+_ ngrok
 
-Pandas / Scikit-learn
+_ Pandas / Scikit-learn
