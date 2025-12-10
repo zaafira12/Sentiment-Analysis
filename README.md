@@ -1,4 +1,4 @@
-##Sentiment Analysis – Student Feedback Classification System
+#Sentiment Analysis – Student Feedback Classification System
 
 This project is an end-to-end NLP pipeline designed to analyze student feedback and automatically generate:
 
@@ -37,7 +37,7 @@ The training script (see category (1).py) performs the following:
 
 category (1)
 
-1.Load Dataset
+1. Load Dataset
 
 Reads Excel data containing:
 
@@ -49,11 +49,11 @@ FeedbackText
 
 Cleans data and converts labels into numerical IDs.
 
-2️ Tokenization
+2️. Tokenization
 
 Uses distilbert-base-uncased tokenizer with max length 512.
 
-3️ Train Category Classifier
+3️. Train Category Classifier
 
 Trains DistilBERT using Hugging Face Trainer with:
 
@@ -65,11 +65,11 @@ Weight Decay: 0.01
 
 Auto-saving best model
 
-4️ Train SubCategory Classifier
+4️. Train SubCategory Classifier
 
 Identical process, but with weighted accuracy, precision, recall, and F1.
 
-5️ Build Combined Analyzer
+5️. Build Combined Analyzer
 
 Loads:
 
