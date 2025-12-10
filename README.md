@@ -49,11 +49,11 @@ FeedbackText
 
 Cleans data and converts labels into numerical IDs.
 
-2️. Tokenization
+2️.  Tokenization
 
 Uses distilbert-base-uncased tokenizer with max length 512.
 
-3️. Train Category Classifier
+3️.  Train Category Classifier
 
 Trains DistilBERT using Hugging Face Trainer with:
 
@@ -65,11 +65,11 @@ Weight Decay: 0.01
 
 Auto-saving best model
 
-4️. Train SubCategory Classifier
+4️.  Train SubCategory Classifier
 
 Identical process, but with weighted accuracy, precision, recall, and F1.
 
-5️. Build Combined Analyzer
+5️.  Build Combined Analyzer
 
 Loads:
 
@@ -90,16 +90,16 @@ Provides a single .analyze(text) output like:
 
 #Technologies Used
 
-_ Python 3
+- Python 3
 
-_ Hugging Face Transformers
+- Hugging Face Transformers
 
-_ DistilBERT
+- DistilBERT
 
-_ CardiffNLP RoBERTa sentiment model
+- CardiffNLP RoBERTa sentiment model
 
-_ Flask
+- Flask
 
-_ ngrok
+- ngrok
 
-_ Pandas / Scikit-learn
+- Pandas / Scikit-learn
